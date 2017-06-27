@@ -1,19 +1,28 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+# Geany
+*.geany
 
-# Other files and folders
-.settings/
+# Python test
+*_old.py
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# GitEye
+target/
+/.project
+*.project
+
+# Blender
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*_old.blend
+
+# other
+.idea/
+old/
+
+server_simul/

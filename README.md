@@ -20,20 +20,19 @@ C'est plus facile de s'y retrouver dans des scripts.
 #### Quels scripts
 Les scripts:
 
-* main_once.py
-* main_always.py
+* labomedia_once.py
+* labomedia_always.py
 
 sont les seuls scripts importés directement dans Blender.
 Il ne faut jamais les modifier.
 
 * main_once.py est excécuté à la première frame
-* main_always.py est excutétoutes les frames suivantes
+* main_always.py est excuté toutes les frames suivantes
 
 Tous les scripts sont importés en temps que modules, et ne sont compilés
 qu'une seule fois.
 
-Il est alors possible de les modifier dans un éditeur externe
-sans avoir à les recharger dans Blender.
+Ces scripts importés n'ont plus besoin d'être rechargé dans Blender et il est alors possible de les modifier dans un éditeur externe. En relançant le jeu
 
 ### Testé sur
 * Debian Jessie 8.3 avec Blender 2.72
@@ -66,6 +65,12 @@ Pour pouvoir utiliser les lanceurs
 ~~~text
 sudo apt-get install xterm
 ~~~
+
+
+### Des threads dans le Game Engine
+C'est possible avec le blenderplayer.
+
+Dans Blender avec ["P"], les threads continueront à tourner en arrêtant le jeu avec Echap
 
 ### Merci à:
 
