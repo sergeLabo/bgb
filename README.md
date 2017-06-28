@@ -91,6 +91,6 @@ sudo apt-get install xterm
 
 ### Merci à:
 
-* [Labomedia]  (https://labomedia.org/)
+* [Labomedia]( https://labomedia.org/)
 
 
