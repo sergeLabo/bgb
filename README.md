@@ -12,12 +12,19 @@ Les scripts sont sous GNU GENERAL PUBLIC LICENSE Version 2.
 Pour plus détails, voir le fichier License.
 
 ## A quoi ça sert ?
+
 Ce jeu contient tout ce qu'il faut pour commencer un jeu avec le Blender Game Engine, cela évite de réinventer la poudre tous les 4 matins.
 
 ## Des scripts python plutôt que des briques logiques
-#### Les briques logiques devient vite des plats de spaghetti.
+#### Les briques logiques deviennent vite des plats de spaghetti.
+
 C'est plus facile de s'y retrouver dans des scripts.
 
+#### Des briques logiques plutôt que du python
+
+Pour les entrées clavier, le son, la souris ...
+
+Il suffit de modifier une Game Property, et d'appeler cette propriété en python.
 
 #### Les scripts non modifiables
 
