@@ -69,20 +69,17 @@ Ben dis donc ça m'en fait du boulot
 
 ### Installation
 #### Blender
-
 ~~~text
 sudo apt-get install blender
 ~~~
 
 ### Installation de twisted pour python 3
 #### Dépendances
-
 ~~~text
 sudo apt-get install python3-dev python3-setuptools
 ~~~
 
 #### Installation
-
 ~~~text
 sudo pip3 twisted
 ~~~
@@ -91,7 +88,6 @@ sudo pip3 twisted
 Avec les lanceurs TODO expliquer tout ça
 
 #### Installer xterm
-
 ~~~text
 sudo apt-get install xterm
 ~~~
