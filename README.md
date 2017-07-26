@@ -81,7 +81,7 @@ sudo apt-get install python3-dev python3-setuptools
 
 #### Installation
 ~~~text
-sudo pip3 twisted
+sudo pip3 install twisted
 ~~~
 
 ## Exécution du jeu du jeu
@@ -95,5 +95,3 @@ sudo apt-get install xterm
 ### Merci à:
 
 * [Labomedia]( https://labomedia.org/)
-
-
