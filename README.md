@@ -29,8 +29,7 @@ Il suffit de modifier une Game Property, et d'appeler cette propriété en pytho
 * labomedia_once.py
 * labomedia_always.py
 
-sont les seuls scripts importés directement dans Blender.
-Il ne faut jamais les modifier.
+sont les seuls scripts importés directement dans Blender: il ne faut jamais les modifier.
 
 #### Les scripts modifiables
 
@@ -42,6 +41,7 @@ Tous les scripts sont importés en temps que modules, et ne sont compilés qu'un
 Ces scripts importés n'ont plus besoin d'être rechargé dans Blender et il est alors possible de les modifier dans un éditeur externe. Il faut relancer le jeu pour que les modifications soient effectives.
 
 ## Un serveur et du réseau avec twisted
+Un dossier game_server contient un exemple de scripts de serveur.
 
 ### Des threads dans le Game Engine
 C'est possible avec le blenderplayer.
@@ -49,8 +49,8 @@ C'est possible avec le blenderplayer.
 Dans Blender avec ["P"], les threads continueront à tourner en arrêtant le jeu avec ["Echap"]
 Cela exige de relancer le jeu avec un lanceur d'application.
 
-## Comment utiliser les scripts de labtools ?
-Le dossier labtools contient des scripts pour un tas de choses courrantes:
+## Comment utiliser les scripts de mylabotools ?
+Le dossier mylabotools  contient des scripts pour un tas de choses courrantes:
 
 * réseau
 * son
@@ -63,7 +63,7 @@ Le dossier labtools contient des scripts pour un tas de choses courrantes:
 Ben dis donc ça m'en fait du boulot
 
 ## Testé sur
-* Debian Jessie 8.3 avec Blender 2.72
+* Debian Stretch 9.3  avec Blender 2.78
 
 ### Installation
 #### Blender
@@ -82,13 +82,10 @@ sudo apt-get install python3-dev python3-setuptools
 sudo pip3 install twisted
 ~~~
 
-## Exécution du jeu du jeu
-Avec les lanceurs TODO expliquer tout ça
+## Exécution du jeu
 
-#### Installer xterm
-~~~text
-sudo apt-get install xterm
-~~~
+Double clic sur clic_to_run_game
+Ces scripts doivent être excécutable.
 
 ### Merci à:
 

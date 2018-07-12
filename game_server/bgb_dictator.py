@@ -66,7 +66,7 @@ from time import time, sleep
 import threading
 import json
 
-from labtools.labfifolist import PileFIFO
+from mylabotools.labfifolist import PileFIFO
 from bat_simul import BatSimul, BAT_D
 
 

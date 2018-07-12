@@ -30,7 +30,7 @@ ip du serveur sur ce multicast, lancement d'un socket TCP pour envoyer.
 
 from bge import logic as gl
 
-from scripts.labtools.labconfig import MyConfig
+from scripts.mylabotools.labconfig import MyConfig
 
 
 def get_conf():

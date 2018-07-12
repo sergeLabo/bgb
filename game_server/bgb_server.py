@@ -29,15 +29,15 @@ from twisted.internet.endpoints import TCP4ServerEndpoint
 from twisted.internet.protocol import Protocol, Factory
 from twisted.internet import reactor, defer
 
-from labtools.labconfig import MyConfig
-from labtools.labsometools import get_my_ip
+from mylabotools.labconfig import MyConfig
+from mylabotools.labsometools import get_my_ip
 
 from bgb_dictator import GameManagement
 
 
 # Variable globale
 scr = os.path.dirname(os.path.abspath(__file__))
-conf = MyConfig(scr + "/bgb.ini")
+conf = MyConfig(scr + "/bgb_server.ini")
 my_conf = conf.conf
 print("Configuration du serveur: {}\n".format(my_conf))
 
