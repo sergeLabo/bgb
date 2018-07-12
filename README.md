@@ -1,15 +1,13 @@
 
-# Blender Game Base
-# bgb
+# Blender Game Base: bgb
 
 
 ### License and Copyright
 
-Ce jeu est sous Creative Commons Attribution-ShareAlike 3.0 Unported License.
+This game is under Creative Commons Attribution-ShareAlike 3.0 Unported License.
 
-Les scripts sont sous GNU GENERAL PUBLIC LICENSE Version 2.
-
-Pour plus détails, voir le fichier License.
+All scripts are under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+More in file License GPL V3.
 
 ## A quoi ça sert ?
 
