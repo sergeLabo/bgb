@@ -18,13 +18,9 @@
 
 '''
 Ce script est appelé par main_init.main dans blender
-Il ne tourne qu'une seule fois pour initier las variables
+Il ne tourne qu'une seule fois pour initier lss variables
 qui seront toutes des attributs du bge.logic (gl)
 Seuls les attributs de logic sont stockés en permanence.
-
-Un thread est crée pour recevoir le multicast, puis après avoir reçu l'adresse
-ip du serveur sur ce multicast, lancement d'un socket TCP pour envoyer.
-
 '''
 
 
