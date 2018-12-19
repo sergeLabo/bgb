@@ -1,0 +1,7 @@
+#!/bin/bash
+# -*- coding: UTF-8 -*-
+
+
+cd game_server
+
+python3 bgb_server.py
